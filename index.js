@@ -83,7 +83,7 @@ client.on('ready', () => {
   const port = 4000 || 3000;
 
   app.all('/', (req, res) => {
-    res.send(`Done!`);
+    res.send(`Sono vivo!`);
     res.end();
   });
   app.listen(port, () => debug(`Bot running on http://localhost:${port}`));
